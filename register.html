@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Fitness club">
+    <meta name="keywords" content="fitness club, gym, gym center, fitness center">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Saiyed_Fitness_Club </title>
+
+    <style>
+    
+    body
+    {
+
+      background-image: url(images/gym5.jpg);
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-position-x:-130px ;
+      height: 100vh;
+      color: white;
+
+    }
+
+    .left
+    {
+      
+      width: 150px;
+      position: absolute;
+      top:20px;
+      font-size: 18px;
+      
+    }
+
+    .left img
+    {
+        width: 100px;
+       height: 64px;
+       margin: 0px 25px;
+    }
+
+    .middle
+    {
+       
+        width: 50%;
+      display: block;
+       margin: 10px auto;
+       
+       
+    }
+   
+    .right
+    {
+       
+        width: 150px;
+       position: absolute;
+       right: 50px;
+       top: 20px;
+       margin: 15px;
+    }
+
+    .navbar
+    {
+        list-style-type: none;
+        display: inline-block;
+        font-size: 20px;
+        border-right-color: darkgray;
+        border-right: 5px;
+    }
+
+    .navbar li
+    {
+        display: inline-block;
+        border-right: 5px;
+        
+
+    }
+    .navbar li a
+    {
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        padding: 8px 18px;
+        margin-top: 8px;
+        border-right: 2px solid rgb(73, 69, 69);
+        
+    }
+
+    .navbar li a:hover, .navbar li a.register
+    {
+        text-decoration: underline;
+        color: gray;
+        background-color: #f1f1f1;
+    }
+
+    
+    
+
+    .btn
+    {
+        background-color: black;
+        color: white;
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        padding: 4px 6px;
+        cursor: pointer;
+      
+    }
+
+    .container
+    {
+        border: 3px solid gray;
+        width: 20%;
+        margin: 50px 103px;
+        padding: 45px 122px;
+        border-radius: 10px;
+
+    }
+
+    .navbar a:hover
+    {
+        background-color: #383030;
+    }
+
+    .form-group input
+    {
+      font-weight: bold;
+      font-size: larger;
+      text-align: center;
+      border-radius: 10px;
+      display: block;
+      padding: 3px;
+      border: 2px solid black;
+      margin: 3px auto;
+    }
+
+    .btns
+    {
+        background-color: black;
+        color: white;
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        padding: 4px 6px;
+        cursor: pointer;
+        width: 268px;
+
+    }
+
+    
+
+   
+    </style>
+
+</head>
+
+<body>
+
+   <header>
+
+    <div class="left" >
+
+        <img src="images/gy2.png" alt="">
+
+        <b>Saiyed_Fitness_Club </b><br>
+        <center><b><u>Since 2003</u></b></center> 
+
+    </div> 
+
+    <div class="middle">
+      <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html" class="register">Register</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="why us.html">Why Us</a></li>
+        </ul>
+
+    </div>
+
+    <div class="right">
+
+        <a href="contact.html">
+        <button class="btn">Contact Us</button>
+        </a>
+        
+    </div>
+
+   </header>
+
+   <div class="container">
+    <h1> Register To Join A Best GYM</h1>
+     <form action="no-active">
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+
+        <div class="form-group">
+            <input type="number" name="" placeholder="Enter Your Age">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Locallity">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Mobile No.">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Email ">
+        </div>
+
+        
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+
+         
+
+         <button class="btns">Submit</button>
+        
+
+     </form>
+
+   </div>
+
+
+    
+</body>
+
+</html>
